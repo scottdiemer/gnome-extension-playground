@@ -7,7 +7,7 @@ let panelButton, panelButtonText, timeout;
 
 function setButtonText() {
   var [ok, out, err, exit] = GLib.spawn_command_line_sync("date");
-  panelButtonText.set_text(counter.toString(out.toString().replace("\n", "")));
+  panelButtonText.set_text(out.toString());
   return true;
 }
 
