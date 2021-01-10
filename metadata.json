@@ -1,0 +1,8 @@
+{
+    "description": "my extension description",
+    "name": "example",
+    "shell-version": ["3.38.2"],
+    "url": "",
+    "uuid": "example@example.com",
+    "version": 1
+}
